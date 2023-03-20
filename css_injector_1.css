@@ -870,3 +870,9 @@ body {
     margin-left: 0;
   }
 }
+.program-box-wrapper{
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+

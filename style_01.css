@@ -2364,9 +2364,8 @@ flex-wrap: wrap;
 }
 
 .programe-box {
-    padding: 10px
+    padding: 10px;
 }
-
 
 .programe-box-content {
     background-color: #fff;
@@ -2408,6 +2407,14 @@ flex-wrap: wrap;
     height: 100%;
     display: flex;
     flex-direction: column
+}
+
+
+.programe-wrap:hover{
+    font-weight: bold;
+    box-shadow: 1px 2px 3px 0px rgba(25,25,25,0.6);
+    opacity: 1;
+    transition:all 0.5s ease;  
 }
 
 .special-col .programe-box-content::after {
